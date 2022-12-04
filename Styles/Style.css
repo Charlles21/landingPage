@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 82.61%);
+}
+
+.cabecalho{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;  
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalhoImg{
+    height: 72px;
+}
+
+.cabecalhoNav{
+    display: flex;
+    gap: 32px;
+}
+.cabecalhoNavItem{
+    font-family: 'Sarala', sans-serif;
+    color: #fff2ef;
+    font-weight: 400;
+    font-size: 18px;    
+}
+
+.conteudo{
+   border-top: 0.2px solid #fff2ef;
+   margin-bottom: 48px;
+}
+
+.conteudoPrincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.conteudoPrincipalEscrito{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    gap: 32px;
+}
+
+.conteudoPrincipalEscritoTitulo{
+   font-family: 'Rightius', sans-serif; 
+   font-weight: 400;
+   font-size: 65px;
+   color: #fff2ef;
+}
+
+.conteudoPrincipalEscritoSubtitulo{
+   font-family: 'Salara', sans-serif; 
+   font-weight: 400;
+   font-size: 24px;
+   color: #fff2ef;
+   margin-left: 8px;
+}
+.conteudoPrincipalButton{
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    font-family: 'Salara', sans-serif; 
+    font-weight: 400;
+    font-size: 24px;
+
+}
+.conteudoPrincipalButton:hover{
+    background-color: rgba(236,214,196,0.53);
+}
+
+.conteudoPrincipalImg{
+   height: 430px; 
+
+}
+
+.conteudoSecundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+    margin-left: 8px;
+    
+}
+
+.conteudoSecundarioTitulo{
+    border-top: 0.2px solid #fff2ef;
+    padding-top: 48px;
+    font-family: 'Rightius', sans-serif;
+    color: #fff2ef;
+    margin-bottom: 16px;
+}
+
+.conteudoSecundarioParagrafo{
+    font-family: 'Salara', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff2ef;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.2px solid #fff2ef;
+}
+
+.rodapeImg{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
